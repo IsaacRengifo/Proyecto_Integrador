@@ -423,11 +423,6 @@ Esta versión adopta los **valores medidos** porque:
 La diferencia se conserva documentada y no se elimina: ambas cifras son válidas en su contexto
 (estimación de diseño vs. medición real), pero solo la segunda es verificable.
 
-> Se recomienda revisar igualmente el valor de exactitud de clasificación del dashboard: la
-> monografía original reporta 91,83 % con AUC 0,8343, mientras que el `README.md` del repositorio
-> reporta 93,2 % con AUC 0,967. Ambos aparecen registrados hasta su verificación con el notebook
-> fuente.
-
 ---
 
 ## 6. Eficiencia, renovables y circularidad *(Módulos 2, 3 y 4)*
@@ -551,10 +546,6 @@ persistencia y una red neuronal multicapa (MLP).
 Random Forest supera a todos los alternativos y permite pronosticar la demanda futura para la
 planeación administrativa. La diferencia frente al modelo base (R² 0,712 → 0,968) confirma que
 las variables ambientales y de operación aportan información predictiva sustancial.
-
-> El dashboard incorpora además un modelo de regresión MLP para consumo por intervalo con
-> R² = 0,912 y MAE = 0,0092 kWh. Son problemas distintos (semanal acumulado vs. por intervalo),
-> por lo que sus métricas no son comparables entre sí.
 
 ---
 
