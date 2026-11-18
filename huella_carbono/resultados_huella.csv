@@ -1,0 +1,4 @@
+aula,columna,registros,consumo_kwh,emisiones_kg_co2e,factor_kg_co2e_kwh
+Aula 1 (con aire acondicionado),aula1_potencia_W,2016,87.8118,15.5427,0.177
+Aula 2 (ventilacion natural),aula2_potencia_W,2016,10.8561,1.9215,0.177
+TOTAL,,,98.6679,17.4642,0.177
