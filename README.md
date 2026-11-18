@@ -27,8 +27,6 @@ El proyecto propone el desarrollo e implementación de un sistema integral de mo
 
 La arquitectura de adquisición de información se fundamenta en el despliegue de medidores de energía eléctrica independientes por aula y dispositivos de comunicación basados en el microcontrolador ESP32 bajo el paradigma del Internet de las Cosas (IoT). La telemetría capturada se estructurará en una base de datos histórica persistente y procesada mediante librerías especializadas del ecosistema Python. Posteriormente, se entrenarán y evaluarán modelos de pronóstico de series temporales y algoritmos de aprendizaje automático para predecir la demanda energética semanal futura. Los resultados se integrarán en un tablero interactivo de visualización en Streamlit destinado a socializar indicadores clave de gestión y apoyar procesos institucionales de sensibilización para el uso racional y eficiente de la energía.
 
-> **Declaración de Alcance No Intervencionista**: El proyecto no contempla la automatización ni el control físico del encendido o apagado de luminarias, ventiladores ni acondicionadores de aire. El alcance se restringe estrictamente a medir, analizar, comparar, predecir y comunicar información técnica sustentada en evidencia.
-
 *Palabras clave*: consumo energético, aulas educativas, ocupación, aire acondicionado, IoT, ESP32, inteligencia artificial, predicción, eficiencia energética.
 
 ---
